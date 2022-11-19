@@ -28,4 +28,4 @@ Never leave credentials in cron jobs.
 ### Postgresql 
 #### psql 
 #### * List database
-##### \list
+<b> \list </b>
