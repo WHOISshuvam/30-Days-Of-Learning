@@ -29,3 +29,5 @@ Never leave credentials in cron jobs.
 #### psql 
 #### * List database
 <b> \list </b>
+#### * Connect to Database
+<b> \c database_name </b>
