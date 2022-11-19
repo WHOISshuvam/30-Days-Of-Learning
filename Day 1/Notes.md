@@ -33,5 +33,5 @@ Never leave credentials in cron jobs.
 | \list | \c database_name | \d | SELECT * FROM table_name; |
 
 ### Create wordlist for testing opensource projects
-#### find | sed 's/\.//g' > wordlist 
+#### find | sed 's/\.//g' > ffufwordlist.txt
 
