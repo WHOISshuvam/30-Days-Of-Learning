@@ -30,4 +30,4 @@ Never leave credentials in cron jobs.
 
 | List Database | Connect To Database |
 | ---|---|
-| \list | \c |
+| \list | \c database_name |
