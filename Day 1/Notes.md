@@ -3,7 +3,7 @@
 #### find /dir -type f-name name -exec grep -H '^keyword' {} \;
 
 ### Decompressing files
-#### tar -xjf backup.tbz
+#### tar -xjf file.tbz
 #### tar -xzf file.tgz
 #### bunzip2 file.bz2
 
