@@ -11,6 +11,7 @@
 https://robertheaton.com/2013/07/29/padding-oracle-attack/
 #### openssl enc -d -aes256 -k KEY -in enc.tgz.enc -out out.tgz
 
+#### Data stays longer in /var/tmp then /tmp dir
 
 ### Cronjobs
 Never leave credentials in cron jobs.
