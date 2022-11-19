@@ -1,1 +1,26 @@
 
+## 9
+#### find /dir -type f-name name -exec grep -H '^keyword' {} \;
+
+### Decompressing files
+#### tar -xjf backup.tbz
+#### tar -xzf file.tgz
+#### bunzip2 file.bz2
+
+### Encrypting and Decrypting files with openssl
+https://robertheaton.com/2013/07/29/padding-oracle-attack/
+#### openssl enc -d -aes256 -k KEY -in enc.tgz.enc -out out.tgz
+
+
+### Cronjobs
+Never leave credintails in cron jobs.
+
+<!-- $1 = md5crypt $5 = sha256 $6 = sha512 -->
+### See services runing in a system
+#### ps -edf
+
+### Intresting Directory
+#### /var/lib/mysql/mysql
+
+### Read arbitary file when logged in as mysql using load_file() function
+#### SELECT LOAD_FILE('/var/lib/password.txt');
