@@ -36,6 +36,12 @@ Never leave credentials in cron jobs.
 | --- | --- |
 | COPY tname '/etc/passwd'; | DROP TABLE tname; |
 
+### Sqlite 
+Poratble Database
+|List Tables| Read Data From Table |
+|---| -- |
+|.tables| SELECT * FROM tablename|
+
 ### Create wordlist for testing opensource projects
 #### find | sed 's/\.//g' > ffufwordlist.txt
 
