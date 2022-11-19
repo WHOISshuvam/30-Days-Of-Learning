@@ -33,6 +33,5 @@ Never leave credentials in cron jobs.
 <b> \c database_name </b>
 
 
-|Test | Hora | Fucche |
-
-
+| Test | Hora | Fucche |
+| 1| | 2 | 3 |
