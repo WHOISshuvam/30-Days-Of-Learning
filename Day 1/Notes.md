@@ -24,3 +24,6 @@ Never leave credentials in cron jobs.
 
 ### Read arbitary file when logged in as mysql using load_file() function
 #### SELECT LOAD_FILE('/var/lib/password.txt');
+
+### Postgresql 
+#### psql 
