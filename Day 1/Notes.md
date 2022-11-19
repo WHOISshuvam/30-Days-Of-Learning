@@ -32,9 +32,9 @@ Never leave credentials in cron jobs.
 | ---|---| --- | --- | --- |
 | \list | \c database_name | \d | SELECT * FROM table_name; | CREATE TABLE tname(column data); |
 
-| Copy Arbitary File to Table | 
-| --- |
-| COPY tname '/etc/passwd'; |
+| Copy Arbitary File to Table | DELETE TABLE |
+| --- | --- |
+| COPY tname '/etc/passwd'; | DROP TABLE tname; |
 
 ### Create wordlist for testing opensource projects
 #### find | sed 's/\.//g' > ffufwordlist.txt
