@@ -13,7 +13,7 @@ https://robertheaton.com/2013/07/29/padding-oracle-attack/
 
 
 ### Cronjobs
-Never leave credintails in cron jobs.
+Never leave credentials in cron jobs.
 
 <!-- $1 = md5crypt $5 = sha256 $6 = sha512 -->
 ### See services runing in a system
