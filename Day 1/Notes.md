@@ -28,6 +28,6 @@ Never leave credentials in cron jobs.
 ### Postgresql 
 #### psql 
 
-| List Database | Connect To Database | Reading Tables |
-| ---|---| --- |
-| \list | \c database_name | SELECT * FROM table_name; |
+| List Database | Connect To Database | List Tables | Read Data from Tables |
+| ---|---| --- | --- |
+| \list | \c database_name | \d | SELECT * FROM table_name; |
