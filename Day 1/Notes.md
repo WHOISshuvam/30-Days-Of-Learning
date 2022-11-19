@@ -30,7 +30,7 @@ Never leave credentials in cron jobs.
 
 | List Database | Connect To Database | List Tables | Read Data from Tables | Create Table |
 | ---|---| --- | --- | --- |
-| \list | \c database_name | \d | SELECT * FROM table_name; | CREATE TABLE tname(column data) |
+| \list | \c database_name | \d | SELECT * FROM table_name; | CREATE TABLE tname(column data); |
 
 ### Create wordlist for testing opensource projects
 #### find | sed 's/\.//g' > ffufwordlist.txt
