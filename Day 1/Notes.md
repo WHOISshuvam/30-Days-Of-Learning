@@ -32,6 +32,5 @@ Never leave credentials in cron jobs.
 #### * Connect to Database
 <b> \c database_name </b>
 
-
-| Test | Hora | Fucche |
-| 1| | 2 | 3 |
+| List Database | Connect To Database |
+| ---|---|
