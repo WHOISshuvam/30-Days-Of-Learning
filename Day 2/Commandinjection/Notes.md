@@ -1,6 +1,7 @@
 ### PHP Command Injection
 ```
-In the vulnerable code below eval() function is used without any input validation. This allows user  to control the value passed via name paramater allowing attacker to execute system commands.
+⋅⋅⋅In the vulnerable code below eval() function is used without any input validation. This allows user  to control the value passed via name
+paramater allowing attacker to execute system commands.⋅⋅⋅
 
 ```
 
