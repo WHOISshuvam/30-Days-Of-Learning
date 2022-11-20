@@ -46,5 +46,12 @@ userid=bobbytables&password=hashedpass&email=bobby@tables.com&isAdmin=true
 ```
 
 ```
+POST /addUser
+...
+userid=bobbytables&password=hashedpass&email=bobby@tables.com&isAdmin=1
+
+```
+
+```
 
 ```
