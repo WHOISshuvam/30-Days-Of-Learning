@@ -4,5 +4,6 @@ When there is any change to the zone data of Primary DNS, the data is shared wit
 
 #### Types :
 |Types|
+|---|
 | Full zone transfer | Incremental zone transfer |
 |---|---|
