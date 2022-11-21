@@ -16,7 +16,7 @@ Virtual Host is used to host multiple domain names under same web-server. If one
 ```
 ##### ( Multiple vhost are hosted under 69.63.176.3 )
 
-### Subdomain Enumeration of qq.fb.com gives following result.
+#### Subdomain Enumeration of qq.fb.com gives following result.
 ```
 sandbox.qq.fb.com
 marky.qq.fb.com
@@ -24,5 +24,8 @@ prod-marky.qq.fb.com
 ```
 
 ##### FUZZ the above subdomains as vhost on 69.63.176.3 >> We might me able to access internal hosts.
+```
+Additionally permuatations can be done on the subdomains enumerated before.
+```
 
 
