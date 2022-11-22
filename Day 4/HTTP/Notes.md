@@ -15,3 +15,4 @@ require 'httparty'
 HTTParty.post("http://localhost/search", {body: "q=apple"} )
 HTTParty.post("http://localhost/search", {body: "q=apple", headers: {'User-Agent': 'Pentest'}}) 
 ```
+##### Sometimes sending same parameters twice can bypass simple filterings
