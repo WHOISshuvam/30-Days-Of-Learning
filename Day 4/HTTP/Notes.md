@@ -15,4 +15,8 @@ require 'httparty'
 HTTParty.post("http://localhost/search", {body: "q=apple"} )
 HTTParty.post("http://localhost/search", {body: "q=apple", headers: {'User-Agent': 'Pentest'}}) 
 ```
+
+###### URL encode decode 
+require 'uri'; str="%2500" ; puts URI.decode(str);
+
 ##### Sometimes sending same parameters twice can bypass simple filterings
