@@ -10,6 +10,8 @@ HTTParty.get("http://localhost/search", headers: {'Cookie': 'aaa=biscuit'})
 ```
 
 ###### POST request with parameters and Headers
+```
 require 'httparty'
 HTTParty.post("http://localhost/search", {body: "q=apple"} )
-HTTParty.post("http://localhost/search", {body: "key=please", headers: {'User-Agent': 'Pentest'}}) 
+HTTParty.post("http://localhost/search", {body: "q=apple", headers: {'User-Agent': 'Pentest'}}) 
+```
