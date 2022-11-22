@@ -5,6 +5,6 @@
 $gem install httparty
 $irb //lets us exec commands without creating a file
 require 'httparty'
-HTTParty.get("http://ptl-5342b892-53659fe2.libcurl.so/pentester", query: {'key=please'} )
-
+HTTParty.get("http://localhost/search", query: {'q: apple'} )
+HTTParty.get("http://localhost/search", headers: {'Cookie': 'aaa=biscuit'})
 ```
