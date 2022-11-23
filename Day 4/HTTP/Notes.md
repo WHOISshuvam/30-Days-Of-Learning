@@ -18,4 +18,9 @@ HTTParty.post("http://localhost/search", {body: "q=apple", headers: {'User-Agent
 ###### URL encode decode 
 require 'uri'; str="%2500" ; puts URI.decode(str);
 
+##### Send HTTP multipart request using curl
+```
+curl http://localhost -F  "file=@localfile.txt'
+```
+
 ##### Sometimes sending same parameters twice can bypass simple filterings
