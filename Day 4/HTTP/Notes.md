@@ -28,5 +28,7 @@ curl http://localhost -F  "file_parameter=@localfile.txt' --trace-ascii -
 curl http://localhost -F "filename=@localfile.txt;filename=../../../etc/passwd"
 ```
 
+##### Sending a Basic Auth Request
+curl http://localhost/admin -u admin:password
 
 ##### Sometimes sending same parameters twice can bypass simple filterings
