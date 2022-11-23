@@ -31,4 +31,13 @@ curl http://localhost -F "filename=@localfile.txt;filename=../../../etc/passwd"
 ##### Sending a Basic Auth Request
 curl http://localhost/admin -u admin:password
 
+##### Send a yaml body with array with multiple values
+```
+curl "http://localhost/upload" -X POST -H 'Content-Type: application/yaml' --data-binary @yaml.txt
+Content of yaml.txt
+key:
+  - value1
+  - value2
+```
+
 ##### Sometimes sending same parameters twice can bypass simple filterings
