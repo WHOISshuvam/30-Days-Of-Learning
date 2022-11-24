@@ -23,7 +23,7 @@ marky.qq.fb.com
 prod-marky.qq.fb.com
 ```
 ```
-ffuf -H "Host: FUZZ" -H "User-Agent: Mozilla" -c -w "/path/to/wordlist.txt" -u qq.fb.com
+ffuf -H "Host: FUZZ" -H "User-Agent: Mozilla" -c -w "/path/to/wordlist.txt" -u http://69.63.176.3
 ```
 
 ##### FUZZ the above subdomains as vhost on 69.63.176.3 >> We might me able to access internal hosts.
