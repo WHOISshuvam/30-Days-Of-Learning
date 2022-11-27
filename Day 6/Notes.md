@@ -8,3 +8,8 @@
     brute:- Attempt to bruteforce credentials for running services
     discovery:- Attempt to query running services for further information about the network (e.g. query an SNMP server).
 ```
+
+##### Nmap default Scripts 
+```
+/usr/share/nmap/scripts/script.db
+```
