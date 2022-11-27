@@ -17,4 +17,6 @@
 ##### Firewall Evasion With Nmap
 ```
 -pN [Continues Scanning even if the host is not responding to ICMP packet]
+-f [Breaks packet into fragments of Packets]
+--scan-delay <time>ms [USeful if the network is unstable]
 ```
