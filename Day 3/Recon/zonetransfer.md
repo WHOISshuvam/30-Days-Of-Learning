@@ -26,3 +26,8 @@ dig  AXFR zonetransfer.me @nsztm1.digi.ninja
 ```
 dig AXFR int @z.hackycorp.com
 ```
+#### Find Server Version
+```
+dig -c chaos -t txt VERSION.BIND @z.hackycorp.com
+
+```
