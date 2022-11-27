@@ -3,5 +3,5 @@
 
 ##### Bruteforce Weak jwt secret with hashcat 
 ```
-hashcat -m 16500 signature.txt rockyou.txt
+hashcat -m 16500 jwttoken.txt rockyou.txt
 ```
