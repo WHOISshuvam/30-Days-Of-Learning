@@ -21,7 +21,7 @@ zonetransfer.me.	6817	IN	NS	nsztm1.digi.ninja.
 dig  AXFR zonetransfer.me @nsztm1.digi.ninja
 ```
 
-#### Using Zone-Transfer to find information about internal dns 
+#### Using Zone-Transfer to find information about internal zone using external Name Server
 
 ```
 dig AXFR int @z.hackycorp.com
