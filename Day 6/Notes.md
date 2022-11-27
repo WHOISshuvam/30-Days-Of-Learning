@@ -16,6 +16,9 @@
 
 ##### Firewall Evasion With Nmap
 ```
+##### Nmap SYN Scan
+During this scan only half packet is sent and reset flag is sent at end. This allows attacker to bypass old IDS.
+
 -pN [Continues Scanning even if the host is not responding to ICMP packet]
 -f [Breaks packet into fragments of Packets]
 --scan-delay <time>ms [USeful if the network is unstable]
