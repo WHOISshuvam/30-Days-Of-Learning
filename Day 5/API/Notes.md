@@ -5,3 +5,5 @@
 ```
 hashcat -m 16500 jwttoken.txt rockyou.txt
 ```
+
+##### Always check js files for endpoints, functions that maynot be available as a normal user
