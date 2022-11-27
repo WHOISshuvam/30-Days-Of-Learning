@@ -13,3 +13,8 @@
 ```
 /usr/share/nmap/scripts/script.db
 ```
+
+##### Firewall Evasion With Nmap
+```
+-pN [Continues Scanning even if the host is not responding to ICMP packet]
+```
