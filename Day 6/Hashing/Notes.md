@@ -31,8 +31,8 @@ Here john creates its own wordlist based on the username like 4rp4n, aRpAn, etc.
 john --single --format=format hash.txt
 ```
 
-##### Crcking password protected Zip Files with john
+##### Cracking password protected Zip Files with john
 ```
-zip2joh hello.zip > hi.txt
+zip2john hello.zip > hi.txt
 john --wordlist=pass.txt hi.txt
 ```
