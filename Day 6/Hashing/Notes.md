@@ -9,7 +9,6 @@ john --list=formats
 ```
 
 ##### Alternative [Hashcat]
-
 ```
 hashcat -m mode /tmp/words.txt hash.txt
 ```
@@ -20,7 +19,14 @@ hashcat --help | grep hash
 ```
 
 ##### Crack /etc/shadow files
-
 ```
 john --format=sha512crypt --wordlist=/usr/share/wordlists/rockyou.txt etchashes.txt 
+```
+
+##### Cracking Hashes Without Password Wordlist 
+```
+Content of hash.txt
+arpan:hash
+Here john creates its own wordlist based on the username like 4rp4n, aRpAn, etc.
+john --single --format=format hash.txt
 ```
