@@ -18,3 +18,9 @@ hashcat -m mode /tmp/words.txt hash.txt
 ```
 hashcat --help | grep hash
 ```
+
+##### Crack /etc/shadow files
+
+```
+john --format=sha512crypt --wordlist=/usr/share/wordlists/rockyou.txt etchashes.txt 
+```
