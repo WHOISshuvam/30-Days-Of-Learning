@@ -74,11 +74,22 @@ for i in {1..65535}; do (echo > /dev/tcp/192.168.1.1/$i) >/dev/null 2>&1 && echo
 /etc/proxychains.conf
 ```
 
-While using proxychains with nmap comment the following lines 
+> While using proxychain with nmap only TCP scan works 
 
 ```
+
+While using proxychains with nmap comment the following lines 
 
 # Proxy DNS requests - no leak for DNS data
 #proxy_dns 
 
 ```
+```
+Proxychain Usage: proxychains telnet 10.10.14.3 23
+```
+
+#### Foxy Proxy
+Useful while proxying to a webapp running inside an isolated network.
+
+
+
