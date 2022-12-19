@@ -48,6 +48,11 @@ Sometimes we may gain remote machine ssh secret utilizing it we may be able to g
 
 >Using local tools through proxy.
 
+##### Enumerate live machines in a host 
+```
+for i in {1..255}; do (ping -c 1 192.168.1.${i} | grep "bytes from" &); done
+```
+
 
 #### Pivoting Techniques
 | Tunneling | Port Forwarding |
