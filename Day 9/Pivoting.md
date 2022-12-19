@@ -36,3 +36,9 @@ Sometimes we may gain remote machine ssh secret utilizing it we may be able to g
 2) chmod 600 id_rsa
 3) ssh -i id_rsa root@192.169.0.3
 ```
+
+
+#### Pivoting Techniques
+| Tunneling | Port Forwarding |
+| --- | ---|
+|Creating a proxy type connection through a compromised machine in order to route all desired traffic into the targeted network|Creating a connection between local port and single port on target|
