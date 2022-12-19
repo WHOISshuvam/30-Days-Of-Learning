@@ -38,9 +38,9 @@ Sometimes we may gain remote machine ssh secret utilizing it we may be able to g
 ```
 #### Enumeration:
 > There are various ways to enumerate other machines in a network
-*Using tools avalable on system like using arp -a command.
-*Checking /etc/hosts file.
-*Using local tools through proxy.
+>Using tools avalable on system like using arp -a command.
+>Checking /etc/hosts file.
+>Using local tools through proxy.
 
 
 #### Pivoting Techniques
