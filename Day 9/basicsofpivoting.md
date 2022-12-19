@@ -94,7 +94,7 @@ Useful while proxying to a webapp running inside an isolated network.
 
 ##### Enable Disable ssh on your system
 ```
-sudo systemctl status
+sudo systemctl status ssh
 sudo systemctl enable ssh
 ```
 
