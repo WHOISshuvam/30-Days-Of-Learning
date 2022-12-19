@@ -36,6 +36,11 @@ Sometimes we may gain remote machine ssh secret utilizing it we may be able to g
 2) chmod 600 id_rsa
 3) ssh -i id_rsa root@192.169.0.3
 ```
+#### Enumeration:
+> There are various ways to enumerate other machines in a network
+*Using tools avalable on system like using arp -a command.
+*Checking /etc/hosts file.
+*Using local tools through proxy.
 
 
 #### Pivoting Techniques
