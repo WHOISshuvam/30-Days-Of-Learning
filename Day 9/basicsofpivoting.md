@@ -92,4 +92,9 @@ Proxychain Usage: proxychains telnet 10.10.14.3 23
 Useful while proxying to a webapp running inside an isolated network.
 
 
+##### Enable Disable ssh on your system
+```
+sudo systemctl status
+sudo systemctl enable ssh
+```
 
