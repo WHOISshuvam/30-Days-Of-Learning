@@ -43,7 +43,7 @@ Sometimes we may gain remote machine ssh secret utilizing it we may be able to g
 >Using tools avalable on system like using arp -a command.
 
 
->Checking /etc/hosts file.
+>Checking /etc/hosts filein linux or C:\Windows\System32\drivers\etc\hosts file in Windows.
 
 
 >Using local tools through proxy.
