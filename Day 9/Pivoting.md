@@ -67,3 +67,18 @@ for i in {1..65535}; do (echo > /dev/tcp/192.168.1.1/$i) >/dev/null 2>&1 && echo
 | --- | ---|
 |Creating a proxy type connection through a compromised machine in order to route all desired traffic into the targeted network|Creating a connection between local port and single port on target|
 |Reliable if we want to perform nmap scan on other machine or send large amount of traffic.|Reliable but only single port can be accessed at a time.|
+
+##### ProxyChains
+>Default ProxyChain Directory
+```
+/etc/proxychains.conf
+```
+
+While using proxychains with nmap comment the following lines 
+
+```
+
+# Proxy DNS requests - no leak for DNS data
+#proxy_dns 
+
+```
