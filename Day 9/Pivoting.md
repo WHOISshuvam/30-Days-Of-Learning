@@ -42,3 +42,4 @@ Sometimes we may gain remote machine ssh secret utilizing it we may be able to g
 | Tunneling | Port Forwarding |
 | --- | ---|
 |Creating a proxy type connection through a compromised machine in order to route all desired traffic into the targeted network|Creating a connection between local port and single port on target|
+|Reliable if we want to perform nmap scan on other machine or send large amount of traffic.|Reliable but only single port can be accessed at a time.|
