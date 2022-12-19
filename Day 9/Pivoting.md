@@ -51,7 +51,9 @@ Sometimes we may gain remote machine ssh secret utilizing it we may be able to g
 ##### Enumerate live machines in a host 
 ```
 for i in {1..255}; do (ping -c 1 192.168.1.${i} | grep "bytes from" &); done
-```![Screenshot at 2022-12-19 13-01-33](https://user-images.githubusercontent.com/85208639/208370241-ce5cabbc-3141-4239-9065-2ed4b6ea1c3f.png)
+```
+
+![Screenshot at 2022-12-19 13-01-33](https://user-images.githubusercontent.com/85208639/208370241-ce5cabbc-3141-4239-9065-2ed4b6ea1c3f.png)
 
 
 
