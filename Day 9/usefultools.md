@@ -57,3 +57,12 @@ chisel client 10.50.102.117:1234 R:2222:127.0.0.1:3306/tcp
 ```
 ./chisel client TARGET_IP:LISTEN_PORT PROXY_PORT:socks
 ```
+
+#### SSHuttle
+```
+sshuttle -r user@10.10.10.10 --ssh-cmd "ssh -i private_key" 10.10.10.0/24
+```
+##### Exclude the compromised Host 
+```
+sshuttle -r user@172.16.0.5 172.16.0.0/24 -x 172.16.0.5
+```
