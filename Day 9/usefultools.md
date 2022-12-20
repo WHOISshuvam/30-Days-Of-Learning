@@ -23,6 +23,7 @@ kill PID
 ```
 
 #### Chisel
+> Uses SOCKS5 Proxy
 
 ##### Reverse Port Forwarding with Chisel
 ###### In attacking machine
@@ -44,3 +45,15 @@ chisel client 10.50.102.117:1234 R:2222:127.0.0.1:3306/tcp
 ```
 >The previous commands will allow us to access the service running locally on the remote machine on port 2222 on the attacking machine.
 
+##### Forward Port Forwarding with Chisel 
+
+###### In Compromised Host
+```
+./chisel server -p LISTEN_PORT --socks5
+```
+
+###### In Attacking Box
+
+```
+./chisel client TARGET_IP:LISTEN_PORT PROXY_PORT:socks
+```
