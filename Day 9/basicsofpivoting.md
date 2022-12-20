@@ -59,7 +59,9 @@ for i in {1..65535}; do (echo > /dev/tcp/192.168.1.1/$i) >/dev/null 2>&1 && echo
 
 ![Screenshot at 2022-12-19 13-01-33](https://user-images.githubusercontent.com/85208639/208370241-ce5cabbc-3141-4239-9065-2ed4b6ea1c3f.png)
 
-
+#### Reverse Proxy VS Forward Proxy 
+>Forward: Allows Host on Isolated Network to Connect to Public Internet
+>Reverse: Allows Computers on Public Network to Access Private Subnet
 
 
 #### Pivoting Techniques
