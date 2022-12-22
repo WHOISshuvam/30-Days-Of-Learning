@@ -29,7 +29,7 @@ pof -i eth0 -o output.txt
 
 ![Screenshot at 2022-12-22 14-44-44](https://user-images.githubusercontent.com/85208639/209098921-2af29781-47ea-49b8-9856-e03d8e035824.png)
 
-#### Basic Usage 
+#### Input Format Supported 
 ```
 nmap scantype 192.168.1.45 200.200.14.56 10.10.10.1
 nmap scantype 10.0.0.0/8
@@ -44,7 +44,6 @@ nmap scantype 10.14.33.1,2,255,10
 34000/tcp open tcpwrapped
 ```
 > This indicates that 3 way handshake was successful but the remote host closed the connection without receiving data.
-
 
 #### Notes :
 > Scope : IP Address, Network Block, Domain Names 
@@ -65,3 +64,4 @@ nmap scantype 10.14.33.1,2,255,10
 
 
 >Try exploiting vulnerabilties identified in previous step and finally the report is created.
+
