@@ -50,3 +50,12 @@ The -d delimeter will split the "1234/tcp" into 2 parts and the -f flag specifie
 ```
 Control Panel > System and Security > System > Advanced System Settings
 ```
+
+##### Command Chaining
+```
+command1 & command2  - execute both regardless of result
+command1 && command2 - execute 1st command and if it succeed, executes 2nd command
+
+command1 | command2  - sends output from first command and send to another
+command1 || command2 - executes the first command and if it fails, execute the second one
+```
