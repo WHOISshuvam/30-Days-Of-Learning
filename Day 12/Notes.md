@@ -25,6 +25,17 @@ fping -a -g 192.168.0.1 192.168.0.255 2>/dev/null Supress Errors
 ```
 pof -i eth0 -o output.txt
 ```
+---
+
+#### Vulnerability Assesement VS Penetration Testing
+
+>VA is a part of PT.
+
+>VA imposes lighter weight on the infrastructure.
+
+> Confirmation of Vulnerability is not required in VA.
+---
+
 #### Nmap Version Detection
 
 ![Screenshot at 2022-12-22 14-44-44](https://user-images.githubusercontent.com/85208639/209098921-2af29781-47ea-49b8-9856-e03d8e035824.png)
@@ -57,7 +68,7 @@ nmap scantype 10.14.33.1,2,255,10
 > For eg. if the scope is whole company collect CIDR, ips, domains, try zone transfer, find live hosts, enumerate web servers, operating system.
 
 
-> Use information collected in previous step perform portscan, directory bruteforce, use automated tools like burp, nikto, nessus, to find scan hosts.
+> Use information collected in previous step perform portscan, directory bruteforce, use automated tools like burp, nikto, openvas, nexpose, nessus, to find scan hosts.
 
 
 > Perform mannual testing side by side.
