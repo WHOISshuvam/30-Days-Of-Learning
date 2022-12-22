@@ -17,6 +17,8 @@ Engagement | Information Gathering | Footprinting | Vulnerability Assesement | E
 usage : fping -a -g IP/NETMASK / IP - IP
 -a alive hosts
 -g ping sweep scan
+
+fping -a -g 192.168.0.1 192.168.0.255 2>/dev/null Supress Errors
 ```
 #### Notes :
 > Scope : IP Address, Network Block, Domain Names 
