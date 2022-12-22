@@ -20,6 +20,11 @@ usage : fping -a -g IP/NETMASK / IP - IP
 
 fping -a -g 192.168.0.1 192.168.0.255 2>/dev/null Supress Errors
 ```
+
+#### p0f 
+```
+pof -i eth0 -o output.txt
+```
 #### Notes :
 > Scope : IP Address, Network Block, Domain Names 
 
