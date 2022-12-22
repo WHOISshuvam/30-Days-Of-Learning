@@ -10,6 +10,14 @@ Engagement | Information Gathering | Footprinting | Vulnerability Assesement | E
 * Enumerate information using whois lookup.
 * Lets assume we got raj.gurungcompany.tld as email, using the same pattern we can enumerate other users emails.
 
+##### Footprinting
+- Ping Sweep Scan
+- fping 
+```
+usage : fping -a -g IP/NETMASK / IP - IP
+-a alive hosts
+-g ping sweep scan
+```
 #### Notes :
 > Scope : IP Address, Network Block, Domain Names 
 
