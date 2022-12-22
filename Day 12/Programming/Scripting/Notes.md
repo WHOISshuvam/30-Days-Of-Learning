@@ -22,3 +22,12 @@ else
        dosomething else
 fi           
 ```
+> Reference: https://tldp.org/LDP/abs/html/why-shell.html
+
+#### For Loop
+```
+#!/bin/bash
+for i in $(ls); do
+echo item: $i
+done
+```
