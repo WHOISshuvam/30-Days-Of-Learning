@@ -25,6 +25,12 @@ fping -a -g 192.168.0.1 192.168.0.255 2>/dev/null Supress Errors
 ```
 pof -i eth0 -o output.txt
 ```
+#### Nmap Version Detection
+
+![Screenshot at 2022-12-22 14-44-44](https://user-images.githubusercontent.com/85208639/209098921-2af29781-47ea-49b8-9856-e03d8e035824.png)
+
+
+
 #### Notes :
 > Scope : IP Address, Network Block, Domain Names 
 
