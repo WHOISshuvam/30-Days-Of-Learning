@@ -5,6 +5,11 @@
 Engagement | Information Gathering | Footprinting | Vulnerability Assesement | Exploitation | Reporting
 | --- | --- | --- | --- | --- | ---|
 
+##### Information Gathering
+* Perform OSINT on Companies Social Networking Sites like linkedin, twitter, crunchbase to enumerate emails, PII of employee working on target company.
+* Enumerate information using whois lookup.
+* Lets assume we got raj.gurungcompany.tld as email, using the same pattern we can enumerate other users emails.
+
 #### Notes :
 > Scope : IP Address, Network Block, Domain Names 
 
