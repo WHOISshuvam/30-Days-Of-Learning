@@ -42,3 +42,11 @@ file.txt
 cat file.txt | cut -d "/" -f 1
 The -d delimeter will split the "1234/tcp" into 2 parts and the -f flag specifies which part to extract. Here we used 1 so port 1234 will be extracted.
 ```
+
+##### Windows Command Line Location:
+> C:\Windows\system32\cmd.exe
+
+##### Manage Windows Environment Variable in Windows 10
+```
+Control Panel > System and Security > System > Advanced System Settings
+```
