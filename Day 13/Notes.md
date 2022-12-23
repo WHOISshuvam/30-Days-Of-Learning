@@ -11,3 +11,7 @@ HEAD / HTTP/1.1
 ##### File Transfer With Netcat
 
 ![Screenshot at 2022-12-23 12-14-36](https://user-images.githubusercontent.com/85208639/209285009-0adb282d-3a7c-45b5-bc20-821f55f7d158.png)
+
+|Directory Enumeration|
+|--- |
+|Pure Bruteforce | Dictionary Attack |
