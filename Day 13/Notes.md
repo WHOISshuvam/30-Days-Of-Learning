@@ -15,3 +15,4 @@ HEAD / HTTP/1.1
 |Directory Enumeration|
 |--- |
 |Pure Bruteforce | Dictionary Attack |
+|---|---|
