@@ -55,3 +55,9 @@ nmap -script=smb-enum-shares,smb-enum-users,smb-brute 192.168.23.1
 
 
 ```
+
+#### Accessing Public Shares with smbclient
+
+```
+smbclient //192.123.28.3/demo
+```
