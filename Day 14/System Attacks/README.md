@@ -3,10 +3,10 @@
 * Impact: Can cause DOS, Spy Users, Gain Unauthorized Access.
 
 |Types|
-|---|
-|Virus| |Small Piece of Code that affects system|
-|Trojan| |---|
-|Rootkit| |test|
+|---|---|
+|Virus| test |
+|Trojan|
+|Rootkit| 
 |Bootkit|
 |Adware|
 |Spyware|
