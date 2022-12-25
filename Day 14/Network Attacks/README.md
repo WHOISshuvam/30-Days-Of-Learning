@@ -39,6 +39,8 @@ john /etc/shadow --wordlist=/root/Desktop/wordlists/1000000-password-seclists.tx
 ```
 smbclient //10.10.10.10/C$ -N
 
+enum4linux -U 192.168.23.1 >> Enumerate Users
+
 enum4linux -n 192.168.23.1 >> NBT stat
 
 enum4linux -P 192.168.23.1 >> GIVES PASSWORD POLICY ON REMOTE MACHINE
