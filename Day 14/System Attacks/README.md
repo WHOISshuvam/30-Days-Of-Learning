@@ -4,9 +4,9 @@
 
 |Types|
 |---|
-|Virus|
-|Trojan|
-|Rootkit|
+|Virus| |Small Piece of Code that affects system|
+|Trojan| |---|
+|Rootkit| |test|
 |Bootkit|
 |Adware|
 |Spyware|
