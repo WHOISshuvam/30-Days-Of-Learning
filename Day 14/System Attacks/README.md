@@ -4,5 +4,16 @@
 
 |Types|
 |---|
-|test|
-|test2||
+|Virus|
+|Trojan|
+|Rootkit|
+|Bootkit|
+|Adware|
+|Spyware|
+|Greyware|
+|Dialer|
+|Keylogger|
+|Botnet|
+|Ransomware|
+|Worm|
+|Data Stealing Malware|
