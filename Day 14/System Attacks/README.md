@@ -123,3 +123,12 @@ rcrack md5_loweralpha#1-3_0_1000x1000_0.rt -h ae0e4bdad7b5f67141743366026d2ea5 >
 
 ```
 > If salt is used during hashing then rainbow table will be useless.
+
+#### Ophcrack
+> Ophcrack is a Windows password cracking tool used to crack NT and NTLM hashes.
+
+* First download rainbow tables and download transmission.
+* Load hashes and Click on Crack.
+
+> Resource: https://ophcrack.sourceforge.io/ https://ophcrack.sourceforge.io/tables.php
+
