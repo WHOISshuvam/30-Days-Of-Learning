@@ -3,8 +3,8 @@
 * Impact: Can cause DOS, Spy Users, Gain Unauthorized Access.
 
 |Types|
-|---|---|
-|Virus| test |
+|---|
+|Virus|
 |Trojan|
 |Rootkit| 
 |Bootkit|
