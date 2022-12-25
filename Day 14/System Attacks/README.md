@@ -139,4 +139,9 @@ rcrack md5_loweralpha#1-3_0_1000x1000_0.rt -h ae0e4bdad7b5f67141743366026d2ea5 >
 hashcat -m mode example.hash exaple.dict -r custom.rule
 ```
 
-
+##### Hashcat Mask Attack
+>Quicker than pure bruteforce attack .
+> Resource: https://hashcat.net/wiki/doku.php?id=mask_attack
+```
+hashcat -m 0 -a 3 hash ?1?1?1?1?1?1?1?1?a
+```
