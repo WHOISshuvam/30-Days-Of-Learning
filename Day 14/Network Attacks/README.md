@@ -61,3 +61,9 @@ nmap -script=smb-enum-shares,smb-enum-users,smb-brute 192.168.23.1
 ```
 smbclient //192.123.28.3/demo
 ```
+
+#### Check perm across Shares
+
+```
+smbmap -H host
+```
