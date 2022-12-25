@@ -108,3 +108,6 @@ set LHOST, LPORT on which you will listen and run
 ```
 john -wordlist=file -rules <file to crack>
 ```
+
+#### Rainbow Tables:
+
