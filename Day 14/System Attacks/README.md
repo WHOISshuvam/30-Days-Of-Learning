@@ -145,3 +145,16 @@ hashcat -m mode example.hash exaple.dict -r custom.rule
 ```
 hashcat -m 0 -a 3 hash ?1?1?1?1?1?1?1?1?a
 ```
+
+#### Buffer Overflow:
+> Allows user to force the program to behave differently compared to what it was intended to causing vulneabilities such as denial of service, RCE, privilege escalation, race condition, etc....
+
+##### Buffer :
+>Area in RAM preserved for temporary storage that include parts of video,server banner, users input, etc.
+
+
+>They have a finite size.
+
+> If the developer doesnot enforce buffer limit, attacker can find a way to write beyond buffer and can control program execution flow.
+
+> Buffers are stored on menory called stack using LIFO approach.
