@@ -85,8 +85,8 @@ Open "regedit" in victims machine and navigate to "HKEY_LOCAL_MACHINE\SOFTWARE\M
 
 ![Screenshot at 2022-12-25 13-05-33](https://user-images.githubusercontent.com/85208639/209460287-434fc945-ac92-4dc4-8a47-4bc57df29c0e.png)
 
+#### Session Management With Metasploit 
+> Since we have already obtained shell previously we can use metasploit to get more features.
 
-```
 
-```
 
