@@ -94,3 +94,17 @@ use multi/hander
 set LHOST, LPORT on which you will listen and run
 ```
 
+#### Password Attacks
+
+##### Password Cracking
+>Process of recoveing plaintext password from hash. Here attacker tries to guess password, hashes it and then compares the result against the password file.
+
+##### Techniques
+* Bruteforce Attack (Takes heck long time but yeilds better result)
+* Dictionary Attack (Faster)
+
+##### John the Ripper
+###### M4ng1ing Rules with john the ripper
+```
+john -wordlist=file -rules <file to crack>
+```
