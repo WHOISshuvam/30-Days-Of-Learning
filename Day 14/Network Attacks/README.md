@@ -58,6 +58,7 @@ nmap -script=smb-enum-shares,smb-enum-users,smb-brute 192.168.23.1
 
 ```
 
+> Note: Sometime we maynot see shares using enum4linux we can bruteforce the  users and try connecting to respective shares using -N flag.
 #### Accessing Public Shares with smbclient
 
 ```
