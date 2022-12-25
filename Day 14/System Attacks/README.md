@@ -34,7 +34,7 @@
 > SOftware that allows attacker to monitor victims activities.Collects information like visited websites, collects password, etc.
 
 #### Grayware
->> Mutated malware
+> Mutated malware
 
 #### Keylogger
 > Tracks users keystrokes, password and sends to attacker.Can be used in penetration tests.
@@ -44,7 +44,12 @@
 
 ![Screenshot at 2022-12-25 10-49-08](https://user-images.githubusercontent.com/85208639/209457618-4d5c4dd3-b815-4fbd-bc4f-fe2852fb2709.png)
 
+#### Botnets
+> Small Software programs installed on mass computers. Consist of C&C Server aand can be instructed to perform certain task simultaneously.
 
+#### Ransomware
+> Software that encrypts victims files with secret key.
 
-
+#### Data Stealing Software
+> Malicious software program capable of stealing most sensitive data.
 
