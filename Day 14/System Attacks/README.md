@@ -88,5 +88,9 @@ Open "regedit" in victims machine and navigate to "HKEY_LOCAL_MACHINE\SOFTWARE\M
 #### Session Management With Metasploit 
 > Since we have already obtained shell previously we can use metasploit to get more features.
 
-
+#### Convert Reverse Shell to Meterpreter Shell
+```
+use multi/hander
+set LHOST, LPORT on which you will listen and run
+```
 
