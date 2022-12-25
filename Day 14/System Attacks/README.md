@@ -132,3 +132,11 @@ rcrack md5_loweralpha#1-3_0_1000x1000_0.rt -h ae0e4bdad7b5f67141743366026d2ea5 >
 
 > Resource: https://ophcrack.sourceforge.io/ https://ophcrack.sourceforge.io/tables.php
 
+#### Custom Rules in Hashcat (Useful During CTFs)
+
+##### Resource: https://hashcat.net/wiki/doku.php?id=rule_based_attack
+```
+hashcat -m mode example.hash exaple.dict -r custom.rule
+```
+
+
