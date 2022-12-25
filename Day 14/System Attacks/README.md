@@ -122,3 +122,4 @@ echo "bug" | md5sum
 rcrack md5_loweralpha#1-3_0_1000x1000_0.rt -h ae0e4bdad7b5f67141743366026d2ea5 >> hash will be cracked.
 
 ```
+> If salt is used during hashing then rainbow table will be useless.
