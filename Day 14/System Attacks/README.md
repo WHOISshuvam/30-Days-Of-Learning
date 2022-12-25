@@ -111,3 +111,14 @@ john -wordlist=file -rules <file to crack>
 
 #### Rainbow Tables:
 
+Password Cracking with rtgen
+#### Rainbow Table Creation
+```
+sudo rtgen md5 loweralpha 1 3 0 1000 1000 0
+
+echo "bug" | md5sum
+> ae0e4bdad7b5f67141743366026d2ea5
+
+rcrack md5_loweralpha#1-3_0_1000x1000_0.rt -h ae0e4bdad7b5f67141743366026d2ea5 >> hash will be cracked.
+
+```
