@@ -78,6 +78,12 @@ smbmap -H host
 nmap -sn 192.168.3.0/24
 ```
 
+#### Enable IP Forwarding in Linux
+
+```
+echo 1 > /proc/sys/net/ipv4/ip_forward
+```
+
 ```
 sudo ettercap -T -S -i eth0 -M arp:remote /10.0.0.1// /10.0.0.129//
 
