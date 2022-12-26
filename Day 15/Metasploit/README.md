@@ -51,3 +51,6 @@ use post/windows/gather/credentials/windows_autologin
 set SESSION 3
 exploit
 ```
+![Screenshot at 2022-12-26 12-57-43](https://user-images.githubusercontent.com/85208639/209517391-160c55de-c5c9-44d8-a0d4-adc2a5fd7f17.png)
+
+
