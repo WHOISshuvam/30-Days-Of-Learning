@@ -99,3 +99,13 @@ ip.addr == 10.0.0.129 && http
 
 ```
 
+#### ARP Spoffing with arpspoof
+```
+echo 1 > /proc/sys/net/ipv4/ip_forward
+
+![Screenshot at 2022-12-26 08-48-02](https://user-images.githubusercontent.com/85208639/209495031-02a909f6-3b0c-43e8-a92c-b2a297a4d018.png)
+
+![Screenshot at 2022-12-26 08-49-05](https://user-images.githubusercontent.com/85208639/209495073-78db59ef-6526-4608-b3a6-6b4ad510fdb2.png)
+
+
+
