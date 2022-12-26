@@ -23,8 +23,9 @@ SESSION
 set SESSION 1
 exploit
 
-The module will generate a malicious file and upload it to the target machine. Then, it uses the same file to create a persistent service. When the service starts, it will run the uploaded file. As a result, we will receive a meterpreter session.
-
-
-
 ```
+> The module will generate a malicious file and upload it to the target machine. Then, it uses the same file to create a persistent service. When the service starts, it will run the uploaded file. As a result, we will receive a meterpreter session.
+
+
+
+
