@@ -21,3 +21,8 @@ exploit
 session -i 2
 ```
 
+#### See services Running on Machine
+```
+
+netstat -ano
+```
