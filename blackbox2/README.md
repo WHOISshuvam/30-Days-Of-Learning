@@ -11,6 +11,8 @@ Discovered open port 5000/tcp on 192.189.153.3
 #### Directory FUZZ
 
 ```
+http://192.189.153.3:8000/console  >> Password Protected
+
 http://192.189.153.3:8000/.git/config
 
 [user]
