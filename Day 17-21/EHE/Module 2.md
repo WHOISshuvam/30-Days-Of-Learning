@@ -21,3 +21,20 @@
 * Network Indicators (Malicious URLS, requests)
 * Host Based Indicators (Analysis of Infected System, File Hashes, Registry Files)
 Behavioural Indicator (Powershell Scripts)
+
+#### Network Scanning Tools
+```
+Nmap
+Megaping
+Unicornscan (Based on TTL values)
+Hping2/3
+Netscan Tools Pro
+OmniPeek Network Protocol Analyzer
+```
+
+Enumeration Tools
+
+```
+nbtstat
+Netbios Emulator (Netbios names, Username, Domain NAme, MAC Addresses)
+```
