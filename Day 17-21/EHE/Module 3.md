@@ -25,3 +25,4 @@
 
 ##### Components of Malware
 
+![Screenshot at 2023-01-01 22-09-50](https://user-images.githubusercontent.com/85208639/210178654-f11a47b3-88ab-4c36-8a57-7114ef1dc736.png)
